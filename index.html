@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cafeteria</title>
+
+    <link rel="stylesheet" href="css/estilo.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <img src="css/logo.jpg" alt="Logo Vitrine" width="90px" style="padding-left: 30px">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#produtos">Produtos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="home">
+            <div>
+                <img src="css/background.jpg" alt="Capa" width="1900px" height="950px">
+            </div>
+
+        </section>
+
+        <section id="sobre">
+            <div data-stellar-background-ratio="2" class="container-fluid" id="parallax">
+                <h2>Sobre nós</h2>
+                <div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis facere recusandae dolorem ad doloremque distinctio animi
+                        modi dicta? Perferendis, nulla! Nesciunt accusantium consequatur modi reprehenderit excepturi, libero
+                        quo consectetur! Veritatis!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis facere recusandae dolorem ad doloremque distinctio animi
+                        modi dicta? Perferendis, nulla! Nesciunt accusantium consequatur modi reprehenderit excepturi, libero
+                        quo consectetur! Veritatis!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis facere recusandae dolorem ad doloremque distinctio animi
+                        modi dicta? Perferendis, nulla! Nesciunt accusantium consequatur modi reprehenderit excepturi, libero
+                        quo consectetur! Veritatis!
+                    </p>
+                </div>
+        </section>
+
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <ul>
+                <li>
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="css/foto1.jpg" alt="Produto">
+                            </div>
+                            <div class="back pulse">
+                                <h4>Titulo</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <small>R$ 20,00</small>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="css/foto2.jpg" alt="Produto">
+                            </div>
+                            <div class="back">
+                                <h4>Titulo</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <small>R$ 20,00</small>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="css/foto3.jpg" alt="Produto">
+                            </div>
+                            <div class="back">
+                                <h4>Titulo</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <small>R$ 20,00</small>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="css/foto4.jpg" alt="Produto">
+                            </div>
+                            <div class="back">
+                                <h4>Titulo</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <small>R$ 20,00</small>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        <section id="contato">
+
+            <h2>Contato</h2>
+
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite uma mensagem" required></textarea>
+
+                <button type="submit" id="submitForm">Enviar</button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <small>Copyright Cafeteria - 2018</small>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+
+
+    <script src="js/form.js"></script>
+
+    <script src="js/stellar.js"></script>
+
+</body>
+
+</html>
